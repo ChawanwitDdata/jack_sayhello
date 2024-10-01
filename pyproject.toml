@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "jack_sayhello"
+version = "0.0.1"
+authors = [
+  { name="Chawanwit", email="chawanwit@data.co.th" },
+]
+description = "Sayhello project"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Git Homepage = "https://github.com/ChawanwitDdata/jack_sayhello"

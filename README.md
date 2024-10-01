@@ -1,2 +1,3 @@
 # jack_sayhello
-for TestPyPI say hello
+============= Say Hello! =============
+This is a say hello example project for PyPI
