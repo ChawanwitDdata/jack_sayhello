@@ -10,3 +10,6 @@ def bye(name):
 
 def sayname(name):
     return f"Ohayo {name}!!!!!"
+
+def sayit(message):
+    return f"{message}"
