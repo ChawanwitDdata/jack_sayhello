@@ -8,3 +8,5 @@ def hi(name):
 def bye(name):
     return f"Bye, {name}!"
 
+def sayname(name):
+    return f"Ohayo {name}!!!!!"
