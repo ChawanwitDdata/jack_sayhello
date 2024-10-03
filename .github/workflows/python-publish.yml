@@ -34,7 +34,7 @@ jobs:
         pip install build
 
     - name: Run tests
-      run: pytest --cov --cov-report=xml  test/
+      run: pytest --cov=src --cov-report=xml tests/
 
     - name: Upload results to Codecov
       uses: codecov/codecov-action@v4
