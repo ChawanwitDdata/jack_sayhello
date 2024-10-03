@@ -1,16 +1,23 @@
 #--- Say Hello
-def say_hello(name):
-    return f"Hello, {name}!"
+def test_say_hello():
+    from jack_sayhello import say_hello
+    assert say_hello("Jack") == "Hello, Jack!"
 #--- Say Hi
-def hi(name):
-    return f"Hi, {name}!"
+def test_hi():
+    from jack_sayhello import hi
+    assert hi("Jack") == "Hi, Jack!"
 #--- Say bye ---
-def bye(name):
-    return f"Bye, {name}!"
+def test_bye():
+    from jack_sayhello import bye
+    assert bye("Jack") == "Bye, Jack!"
 #--- Say name ---
-def sayname(name):
-    return f"Ohayo {name}!!!!!"
+def test_sayname():
+    from jack_sayhello import sayname
+    assert sayname("Jack") == "Ohayo Jack!!!!!"
 #--- Say message ---
-def sayit(message):
-    return f"{message}"
+def test_sayit():
+    from jack_sayhello import sayit
+    assert sayit("Jack") == "Jack"
+
+
 
